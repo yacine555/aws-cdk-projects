@@ -92,7 +92,7 @@ export function createAmplifyHosting(
 
 	const domainDev = amplifyApp.addDomain("dev.".concat(props.appDomain));
     domainDev.mapRoot(devBranch);
-    domainDev.mapSubDomain(devBranch, 'ybamplify');
+    //domainDev.mapSubDomain(devBranch, 'ybamplify');
 
 	const mainBranch = amplifyApp.addBranch('main', {
 		autoBuild: true,
