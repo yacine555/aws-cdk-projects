@@ -152,6 +152,7 @@ test('05. Userpool Client Created', () => {
       'email',
       'openid',
       'phone',
+      'aws.cognito.signin.user.admin',
     ],
     SupportedIdentityProviders: [
       'COGNITO',
