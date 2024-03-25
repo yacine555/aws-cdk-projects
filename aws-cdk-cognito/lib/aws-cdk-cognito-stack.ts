@@ -159,6 +159,8 @@ export class AwsCdkCognitoStack extends cdk.Stack {
           cognito.OAuthScope.EMAIL,
           cognito.OAuthScope.OPENID,
           cognito.OAuthScope.PHONE,
+          cognito.OAuthScope.COGNITO_ADMIN,
+
         ],
         callbackUrls: props.callbackUrls,
         logoutUrls: props.logoutUrls,
